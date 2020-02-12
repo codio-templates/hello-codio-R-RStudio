@@ -1,0 +1,257 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-530676830",
+  "source": {
+   "name": "Conditionals",
+   "showName": false,
+   "instructions": "What will this conditional expression return?\nRun it from the console. \n\n```{r}\nx <- c(1,2,-3,4)\nif(all(x>0)){\n    print(\"All Positives\")\n  } else{\n     print(\"Not All Positives\")\n  }\n```\n",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "6cc49153-8976-3dcb-0571-af79548ba5e9",
+     "correct": false,
+     "answer": "All Positives"
+    },
+    {
+     "_id": "75457018-4673-8054-7a7c-744c5896566f",
+     "correct": true,
+     "answer": "Not All Positives"
+    },
+    {
+     "_id": "ea0f392e-594e-3565-3eae-534a4bdacda8",
+     "correct": false,
+     "answer": "N/A"
+    },
+    {
+     "_id": "ba32a63c-ff6a-42f9-673c-e05a7d913b0f",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 50,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://{{domain8787}}/"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 0,
+      "content": "sudo service rstudio-server-codio start"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1643450243",
+  "source": {
+   "name": "conditionals_hint",
+   "showName": false,
+   "instructions": "Click below to reveal a hint",
+   "command": "/bin/true",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Are the numbers stored in `x` all positive? If not the `print` after the `else` is evaluated.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://{{domain8787}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2247403883",
+  "source": {
+   "name": "conditionals_cont",
+   "showName": false,
+   "instructions": "Which of the following expressions is always `FALSE` when at least one entry of a logical vector x is `TRUE`? You can try examples in the R console.",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "8ef2edb9-8a50-d553-fb85-e136c4e61b53",
+     "correct": false,
+     "answer": "all(x)"
+    },
+    {
+     "_id": "e8a69664-26f4-5410-d76d-0b44e42d936c",
+     "correct": false,
+     "answer": "any(x)"
+    },
+    {
+     "_id": "ae73c802-b78f-d839-a3ed-bf6c0681758c",
+     "correct": false,
+     "answer": "any(!x)"
+    },
+    {
+     "_id": "3118a472-cae2-9d6d-3a38-dc36f96c4b23",
+     "correct": true,
+     "answer": "all(!x)"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 50,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://{{domain8787}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3215649495",
+  "source": {
+   "name": "conditionals_cont_hint",
+   "showName": false,
+   "instructions": "Click below to reveal a hint",
+   "command": "/bin/true",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Define a logical vector `x` such as `c(TRUE, FALSE)` and `c(TRUE, TRUE)` and test them.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://{{domain8787}}/"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1672136394",
+  "source": {
+   "name": "ifelse",
+   "showName": false,
+   "instructions": "We will combine a number of functions for this exercise.\n- Use the `ifelse` function to write one line of code that assigns to the object `new_names` the state abbreviation when the state name is longer than 8 characters and assigns the state name when the name is not longer than 8 characters.\n\nFor example, where the original vector has Massachusetts (13 characters), the new vector should have MA. But where the original vector has New York (8 characters), the new vector should have New York as well.",
+   "command": "sh .guides/testRunner.sh ifelse 100",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 100,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "ifelse_student.r"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "ifelse_student.r"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1445316250",
+  "source": {
+   "name": "ifelse_hint",
+   "showName": false,
+   "instructions": "Click below to reveal a hint",
+   "command": "/bin/true",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Use a call to `nchar` as the first argument of the `ifelse` function to calculate. Check to see if it's larger than 8. Then you use `murders$abb` and `murders$state` in the second and third arguments to return either the abbreviation or state name depending on the number of characters.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "ifelse_student.r"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "ifelse_student.r"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]
