@@ -10,6 +10,6 @@
 
 // Preview button configuration
   "preview": {
-        "R-Studio Run": "https://{{domain8787}}/"
+        "Run R-Studio": "https://{{domain8787}}/"
   }
 }
