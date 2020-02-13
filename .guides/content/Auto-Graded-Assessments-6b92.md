@@ -16,12 +16,14 @@ Codio has an assessment library with hundreds of assessments (mostly Python and 
 ### Multiple Choice
 The default multiple choice question only has two answers. You can add as many as you would like, and you can have multiple correct answers.
 
-{Check It!|assessment}(multiple-choice-1981899322)
+{Check It!|assessment}(multiple-choice-2563424086)
+
 
 ### Fill in the Blank
 You can write whatever you like (sentences, code examples, etc.) for fill in the blank questions. Surround the "blanks" with `<<<` and `>>>`. You can tell Codio to show the students the possible answers. Each blank will have a drop down menu with all of the choices.
 
-{Check It!|assessment}(fill-in-the-blanks-2837664483)
+{Check It!|assessment}(fill-in-the-blanks-943253475)
+
 
 ### Parson's Problems
 For a basic Parson's problems, type the correct code in the box. If you stop here, the lines of code will be scrambled, and the student has to rearrange them. You can add incorrect code (called distractors). Add these lines of code after the correct code. Add `#distractor` after the incorrect code. You also need to add a small JSON object for the problem to work.
@@ -33,4 +35,5 @@ For a basic Parson's problems, type the correct code in the box. If you stop her
 }
 ```
 
-{Check It!|assessment}(parsons-puzzle-21366716)
+{Check It!|assessment}(parsons-puzzle-3520599849)
+
