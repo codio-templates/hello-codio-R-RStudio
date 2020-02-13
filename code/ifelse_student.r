@@ -1,1 +1,5 @@
-# Assign the state abbreviation when the state name is longer than 8 characters 
+#this imports the data
+library(dslabs)
+data(murders)
+# add code after this line
+

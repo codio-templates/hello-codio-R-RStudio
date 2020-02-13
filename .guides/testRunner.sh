@@ -2,7 +2,7 @@
 #run this script from 'workspace' folder
 
 #adding pre code to student code
-cat .guides/$1/R/$1_pre.r $1_student.r > .guides/$1/R/$1.r
+cat .guides/$1/R/$1_pre.r code/$1_student.r > .guides/$1/R/$1.r
 
 #moving into R package
 cd .guides/$1

@@ -1,4 +1,6 @@
-#copy and paste from @pre_exercise_code
+
+#this imports the data
 library(dslabs)
 data(murders)
-# Assign the state abbreviation when the state name is longer than 8 characters 
+# add code after this line
+new_names <- ifelse(nchar(murders$state)>8, murders$abb, murders$state)

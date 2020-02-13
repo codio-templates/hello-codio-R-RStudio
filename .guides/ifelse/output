@@ -1,26 +1,10 @@
 ✔ |  OK F W S | Context
-⠏ |   0       | ifelse✖ |   1 1     | ifelse
-────────────────────────────────────────────────────────────────────────────────
-test-ifelse.R:23: error: new_names is defined and has correct value
-object 'new_names' not found
-1: expect_failure(expect_null(new_names, label = "Make sure you define new_names!")) at /home/codio/workspace/.guides/ifelse/tests/testthat/test-ifelse.R:23
-2: capture_expectation(expr)
-3: tryCatch({
-       code
-       NULL
-   }, expectation = function(e) e)
-4: tryCatchList(expr, classes, parentenv, handlers)
-5: tryCatchOne(expr, names, parentenv, handlers[[1L]])
-6: doTryCatch(return(expr), name, parentenv, handler)
-7: expect_null(new_names, label = "Make sure you define new_names!")
-8: quasi_label(enquo(object), label, arg = "object")
-9: eval_bare(get_expr(quo), get_env(quo))
-────────────────────────────────────────────────────────────────────────────────
+⠏ |   0       | ifelse✔ |   3       | ifelse
 
 ══ Results ═════════════════════════════════════════════════════════════════════
 Duration: 0.2 s
 
-OK:       1
-Failed:   1
+OK:       3
+Failed:   0
 Warnings: 0
 Skipped:  0
