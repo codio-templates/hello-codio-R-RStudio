@@ -4,7 +4,7 @@ library(dslabs)
 data(murders)
 ```
 
-The function `nchar` tells you how many characters long a character vector is. For example:
+The function `nchar` tells you how many characters long a character vector is. For example, paste the code below into the IDE in the top right and then click **TRY IT**.
 
 ```{r}
 char_len <- nchar(murders$state)
@@ -12,7 +12,7 @@ head(char_len)
 ```
 {Try it | terminal}(Rscript code/ifelse_student.r)
 
-The function `ifelse` is useful because you convert a vector of logicals into something else. For example, some datasets use the number -999 to denote NA. A bad practice! You can convert the -999 in a vector to NA using the following `ifelse` call:
+The function `ifelse` is useful because you convert a vector of logicals into something else. For example, some datasets use the number -999 to denote NA. A bad practice! You can convert the -999 in a vector to NA using the `ifelse` call below. Replace the code you pasted in the previous example.
 ```{r}
 x <- c(2, 3, -999, 1, 4, 5, -999, 3, 2, 9)
 ifelse(x == -999, NA, x)

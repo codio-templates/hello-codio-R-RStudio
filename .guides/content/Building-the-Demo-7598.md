@@ -4,7 +4,7 @@
 
 Instruction through Codio is built around the guides feature. This is a brief description on how the demo on the previous page was built. Please see the [documentation](https://codio.com/docs/content/authoring/) for more information about content authoring with guides.
 
-Take a look "under the hood" of this demo by navigating to "Tools > Guide > Edit" on the top tool bar.
+Take a look "under the hood" of this demo by selecting **Tools->Guide->Edit** from the menu on the top tool bar.
 
 ![.guides/img/editGuide](.guides/img/editGuide.png)
 
