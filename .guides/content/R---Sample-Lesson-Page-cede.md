@@ -28,11 +28,11 @@ Among the variables in `mpg` are:
   A car with a low fuel efficiency consumes more fuel than a car with a high 
   fuel efficiency when they travel the same distance. 
 
-To learn more about `mpg`, open its help page by running `?mpg`.
+To learn more about `mpg`, type `R` and hit Enter/Return in the terminal window and then open the help page by typing `??mpg`.
 
 ### Creating a ggplot
 
-To plot `mpg`, run this code to put `displ` on the x-axis and `hwy` on the y-axis:
+To plot `mpg`, copy the code below and paste it into lesson.r (upper left window) then click **Run Code**. This puts `displ` on the x-axis and `hwy` on the y-axis. Click "Refresh Plot" to view the results.
 
 
 ```r
