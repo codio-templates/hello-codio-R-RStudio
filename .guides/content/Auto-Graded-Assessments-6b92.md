@@ -26,14 +26,11 @@ You can write whatever you like (sentences, code examples, etc.) for fill in the
 
 
 ### Parson's Problems
-For a basic Parson's problems, type the correct code in the box. If you stop here, the lines of code will be scrambled, and the student has to rearrange them. You can add incorrect code (called distractors). Add these lines of code after the correct code. Add `#distractor` after the incorrect code. You also need to add a small JSON object for the problem to work.
+For a basic Parson's problems, type the correct code (in the correct order) in the text field above. If you stop here, the lines of code will be scrambled, and the student has to rearrange them. You can add incorrect code blocks (called distractors). Add these lines of code in the text field below. If you are using distractors, be sure to check the box that allows students to drag the correct code blocks into a new box. By default, indentation will be graded. If you do not want students to be penalized for indentation, be sure to check the box to disable indentation.
 
-```javascript
-{
-  "sortableId": "sortable",
-  "trashId": "sortableTrash"
-}
-```
+![Parsons UI](.guides/img/new_parsons_ui.png)
+
+
 
 {Check It!|assessment}(parsons-puzzle-3520599849)
 
