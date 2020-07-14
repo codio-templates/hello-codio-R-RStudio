@@ -6,7 +6,32 @@ As RStudio is pointing at Codio's working directory, you will notice it's file t
 ## Using RStudio
 RStudio Server should start upon the Codio box being opened. That means all you have to do is click "Run R-Studio" on the top menu bar to launch it. RStudio will appear in the blank pane to your left.
 
-<details><summary>**Help! I don't see that button**</summary>No worries -- in the drop down of the middle button click "Configure...". This will open a file called `.codio`. Paste the following into it. <code>{ "commands": { "Start RStudio": "sudo service rstudio-server-codio start", "Restart RStudio": "sudo service rstudio-server-codio restart", "Stop RStudio": "sudo service rstudio-server-codio stop" }, "preview": { "Run R-Studio": "https://{{domain8787}}/"} }</code></details>
+<table><tbody ><tr><td><details><summary>
+	<b>Help! I don't see that button</b>
+</summary><br>
+
+In the drop down of the middle button click "Configure...". This will open a file called `.codio`. Paste the following into it:
+
+```JSON
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Start RStudio": "sudo service rstudio-server-codio start",
+        "Restart RStudio": "sudo service rstudio-server-codio restart",
+        "Stop RStudio": "sudo service rstudio-server-codio stop"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Run R-Studio": "https://{{domain8787}}/"
+  }
+}
+```
+	
+</details></td></tr></tbody>
+</table>
 
 If you select the drop down menu next to the button, you can set RStudio to launch inside the current Codio tab or in a new browser tab.
 

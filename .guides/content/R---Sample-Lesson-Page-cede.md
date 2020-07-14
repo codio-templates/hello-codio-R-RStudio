@@ -71,18 +71,18 @@ ggplot(data = <DATA>) +
 In the plot below, one group of points (highlighted in red) seems to fall outside of the linear trend. These cars have a higher mileage than you might expect. How can you explain these cars? 
 
 
-![Figure 5.3](visualize_files/figure-latex/unnamed-chunk-6-1.jpg)
+![Figure 5.2](visualize_files/figure-latex/unnamed-chunk-6-1.jpg)
 
-**Figure 5.3**
+**Figure 5.2**
 
 Let's hypothesize that the cars are hybrids. One way to test this hypothesis is to look at the `class` value for each car. The `class` variable of the `mpg` dataset classifies cars into groups such as compact, midsize, and SUV. If the outlying points are hybrids, they should be classified as compact cars or, perhaps, subcompact cars (keep in mind that this data was collected before hybrid trucks and SUVs became popular).
 
 You can add a third variable, like `class`, to a two dimensional scatterplot by mapping it to an __aesthetic__. An aesthetic is a visual property of the objects in your plot. Aesthetics include things like the size, the shape, or the color of your points. You can display a point (like the one below) in different ways by changing the values of its aesthetic properties. Since we already use the word "value" to describe data, let's use the word "level" to describe aesthetic properties. Here we change the levels of a point's size, shape, and color to make the point small, triangular, or blue:
 
 
-![Figure 5.4](visualize_files/figure-latex/unnamed-chunk-7-1.jpg)
+![Figure 5.3](visualize_files/figure-latex/unnamed-chunk-7-1.jpg)
 
-**Figure 5.4**
+**Figure 5.3**
 
 You can convey information about your data by mapping the aesthetics in your plot to the variables in your dataset. For example, you can map the colors of your points to the `class` variable to reveal the class of each car.
 
@@ -98,9 +98,9 @@ ggplot(data = mpg) +
 
 
 
-![Figure 5.5](visualize_files/figure-latex/unnamed-chunk-8-1.jpg)
+![Figure 5.4](visualize_files/figure-latex/unnamed-chunk-8-1.jpg)
 
-**Figure 5.5**
+**Figure 5.4**
 
 (If you prefer British English, like Hadley, you can use `colour` instead of `color`.)
 
@@ -123,9 +123,9 @@ ggplot(data = mpg) +
 
 
 
-![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-9-1.jpg)
+![Figure 5.5](visualize_files/figure-latex/unnamed-chunk-9-1.jpg)
 
-**Figure 5.6**
+**Figure 5.5**
 
 Or we could have mapped `class` to the _alpha_ aesthetic, which controls the transparency of the points, or to the shape aesthetic, which controls the shape of the points.
 
@@ -144,10 +144,10 @@ ggplot(data = mpg) +
 [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
-![Figure 5.1](visualize_files/figure-latex/unnamed-chunk-10-1.jpg)
-![Figure 5.1](visualize_files/figure-latex/unnamed-chunk-10-2.jpg)
+![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-10-1.jpg)
+![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-10-2.jpg)
 
-**Figure 5.1**
+**Figure 5.6**
 
 What happened to the SUVs? ggplot2 will only use six shapes at a time. By default, additional groups will go unplotted when you use the shape aesthetic.
 
@@ -179,11 +179,11 @@ Here, the color doesn't convey information about a variable, but only changes th
 
 * The size of a point in mm.
 
-* The shape of a point as a number, as shown in Figure \@ref(fig:shapes).
+* The shape of a point as a number, as shown in Figure 5.8.
 
-![Figure 5.2R has 25 built in shapes that are identified by numbers. There are some seeming duplicates: for example, 0, 15, and 22 are all squares. The difference comes from the interaction of the `colour` and `fill` aesthetics. The hollow shapes (0--14) have a border determined by `colour`; the solid shapes (15--18) are filled with `colour`; the filled shapes (21--24) have a border of `colour` and are filled with `fill`.](visualize_files/figure-latex/shapes-1.jpg)
+![Figure 5.8 has 25 built in shapes that are identified by numbers. There are some seeming duplicates: for example, 0, 15, and 22 are all squares. The difference comes from the interaction of the `colour` and `fill` aesthetics. The hollow shapes (0--14) have a border determined by `colour`; the solid shapes (15--18) are filled with `colour`; the filled shapes (21--24) have a border of `colour` and are filled with `fill`.](visualize_files/figure-latex/shapes-1.jpg)
 
-**Figure 5.2R has 25 built in shapes that are identified by numbers. There are some seeming duplicates: for example, 0, 15, and 22 are all squares. The difference comes from the interaction of the `colour` and `fill` aesthetics. The hollow shapes (0--14) have a border determined by `colour`; the solid shapes (15--18) are filled with `colour`; the filled shapes (21--24) have a border of `colour` and are filled with `fill`.**
+**Figure 5.8 has 25 built in shapes that are identified by numbers. There are some seeming duplicates: for example, 0, 15, and 22 are all squares. The difference comes from the interaction of the `colour` and `fill` aesthetics. The hollow shapes (0--14) have a border determined by `colour`; the solid shapes (15--18) are filled with `colour`; the filled shapes (21--24) have a border of `colour` and are filled with `fill`.**
 
 
 
