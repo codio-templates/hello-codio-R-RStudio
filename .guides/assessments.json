@@ -192,7 +192,7 @@
    "command": "sh .guides/testRunner.sh ifelse 100",
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 40,
-   "guidance": "# Assign the state abbreviation when the state name is longer than 8 characters \n```R\nnew_names <- ifelse(nchar(murders$state)>8, murders$abb, murders$state)\n```",
+   "guidance": "Assign the state abbreviation when the state name is longer than 8 characters \n```R\nnew_names <- ifelse(nchar(murders$state)>8, murders$abb, murders$state)\n```",
    "showGuidanceAfterResponse": true,
    "points": 100,
    "oneTimeTest": false,
