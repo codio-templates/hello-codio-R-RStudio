@@ -87,8 +87,31 @@
    "learningObjectives": ""
   },
   {
+   "id": "d3b7cf4a-b61d-e2ce-8ef9-ba9b9c150c6e",
+   "title": "Standard Code Test",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "hello.R",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Standard-Code-Test-d3b7.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "c8382aee-e7e8-a3e2-fe24-ee9e973de114",
-   "title": "Code Test",
+   "title": "`TestThat` Code Test",
    "files": [
     {
      "path": "#tabs",
@@ -108,7 +131,7 @@
    "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Code-Test-c838.md",
+   "content-file": ".guides/content/-TestThat--Code-Test-c838.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
