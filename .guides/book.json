@@ -26,7 +26,13 @@
    "pageId": "6b9227de-470a-5a77-86d3-b4e7e24c191c"
   },
   {
-   "title": "Code Test",
+   "id": "f175f307-3fad-f842-c729-a96e4840c9c7",
+   "title": "Standard Code Test",
+   "pageId": "d3b7cf4a-b61d-e2ce-8ef9-ba9b9c150c6e",
+   "type": "page"
+  },
+  {
+   "title": "`TestThat` Code Test",
    "id": "5adfb9c7-cfd0-4cf0-4d96-7dcfebc9afb2",
    "type": "page",
    "pageId": "c8382aee-e7e8-a3e2-fe24-ee9e973de114"
