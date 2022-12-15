@@ -1,0 +1,53 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "Rscript hello.R",
+		"guidance": "",
+		"instructions": "Submit your code to the auto-grader.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"hello.R"
+			],
+			"opened": [
+				{
+					"content": "hello.R",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			]
+		},
+		"name": "hello world",
+		"oneTimeTest": false,
+		"options": {
+			"ignoreCase": true,
+			"ignoreNewline": true,
+			"ignoreWhitespaces": true,
+			"matchSubstring": false,
+			"timeout": 30
+		},
+		"points": 20,
+		"preExecuteCommand": "",
+		"sequence": [
+			{
+				"arguments": "",
+				"feedback": "",
+				"input": "",
+				"output": "[1] \"hello world\"\n",
+				"showFeedback": false
+			}
+		],
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": false,
+		"showName": false
+	},
+	"taskId": "code-output-compare-1528466232",
+	"type": "code-output-compare"
+}

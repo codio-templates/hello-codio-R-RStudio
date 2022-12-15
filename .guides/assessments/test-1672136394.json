@@ -1,0 +1,42 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"command": "sh .guides/testRunner.sh ifelse 100",
+		"guidance": "Assign the state abbreviation when the state name is longer than 8 characters \n```R\nnew_names \u003c- ifelse(nchar(murders$state)\u003e8, murders$abb, murders$state)\n```",
+		"instructions": "We will combine a number of functions for this exercise.\n- Use the `ifelse` function to write one line of code that assigns to the object `new_names` the state abbreviation when the state name is longer than 8 characters and assigns the state name when the name is not longer than 8 characters.\n\nFor example, where the original vector has Massachusetts (13 characters), the new vector should have MA. But where the original vector has New York (8 characters), the new vector should have New York as well.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"code/ifelse_student.r",
+				"ifelse_student.r"
+			],
+			"opened": [
+				{
+					"content": "code/ifelse_student.r",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "ifelse",
+		"oneTimeTest": false,
+		"points": 100,
+		"showGuidanceAfterResponse": true,
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-1672136394",
+	"type": "test"
+}

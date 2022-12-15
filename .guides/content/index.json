@@ -1,0 +1,23 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"R---Sample-Lesson-Page-ec56",
+		"Using-RStudio-with-Codio-f423",
+		"Building-the-Demo-69ca",
+		"Auto-Graded-Assessments-6e69",
+		"Standard-Code-Test-f175",
+		"-TestThat--Code-Test-5adf"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Hello Codio with R/RStudio",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

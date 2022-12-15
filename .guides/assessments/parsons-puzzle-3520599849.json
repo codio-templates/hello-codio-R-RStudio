@@ -1,0 +1,28 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"grader": "1",
+		"guidance": "The first code block\nThe second code block\nThe third code block",
+		"initial": "The first code block\nThe second code block\nThe third code block\nI am not correct #distractor\nI am not correct #distractor",
+		"instructions": "Rearrange the code blocks below into the proper order. **Note**, not all of the code blocks will be used.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			]
+		},
+		"name": "Parsons Problem",
+		"oneTimeTest": false,
+		"options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+		"points": 1,
+		"showGuidanceAfterResponse": true,
+		"showName": true
+	},
+	"taskId": "parsons-puzzle-3520599849",
+	"type": "parsons-puzzle"
+}

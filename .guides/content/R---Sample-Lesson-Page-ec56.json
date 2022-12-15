@@ -1,0 +1,33 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "code/lesson.r"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: Rplots.pdf"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#terminal: clear;"
+		}
+	],
+	"id": "ec568086-3e7d-5118-5802-408ba0f34f54",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "R - Sample Lesson Page",
+	"type": "page"
+}

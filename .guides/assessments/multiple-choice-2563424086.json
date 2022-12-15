@@ -1,0 +1,49 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "9774a19c-1ab4-05c8-4bc1-8d9ca0434788",
+				"answer": "After the first names of the two authors",
+				"correct": true
+			},
+			{
+				"_id": "b20b3789-25f8-0cf7-c950-a087357b8a5d",
+				"answer": "After the last names of the two authors",
+				"correct": false
+			},
+			{
+				"_id": "759c3118-7018-9141-8079-a6545bfa429f",
+				"answer": "a play on the name S",
+				"correct": true
+			},
+			{
+				"_id": "a3bc62ce-35bf-bd88-f4f5-94f50d3ad907",
+				"answer": "a play on the name Ruby",
+				"correct": false
+			}
+		],
+		"bloomsObjectiveLevel": "",
+		"guidance": "R was created by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand, and is currently developed by the R Development Core Team (of which Chambers is a member). R is named partly after the first names of the first two R authors and partly as a play on the name of S.",
+		"incorrectPoints": 0,
+		"instructions": "How did the R programming language get it's name?",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": true,
+		"name": "Multiple Choice Question",
+		"points": 1,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": true,
+		"showName": true
+	},
+	"taskId": "multiple-choice-2563424086",
+	"type": "multiple-choice"
+}

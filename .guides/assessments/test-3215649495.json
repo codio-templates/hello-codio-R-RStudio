@@ -1,0 +1,34 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "/bin/true",
+		"guidance": "Define a logical vector `x` such as `c(TRUE, FALSE)` and `c(TRUE, TRUE)` and test them.",
+		"instructions": "Click below to reveal a hint",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "https://{{domain8787}}/",
+					"panelNumber": 0,
+					"type": "preview"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "conditionals_cont_hint",
+		"oneTimeTest": true,
+		"points": 1,
+		"showGuidanceAfterResponse": true,
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-3215649495",
+	"type": "test"
+}

@@ -1,0 +1,36 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "/bin/true",
+		"guidance": "Use a call to `nchar` as the first argument of the `ifelse` function to calculate. Check to see if it's larger than 8. Then you use `murders$abb` and `murders$state` in the second and third arguments to return either the abbreviation or state name depending on the number of characters.",
+		"instructions": "Click below to reveal a hint",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"ifelse_student.r"
+			],
+			"opened": [
+				{
+					"content": "ifelse_student.r",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "ifelse_hint",
+		"oneTimeTest": true,
+		"points": 1,
+		"showGuidanceAfterResponse": true,
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-1445316250",
+	"type": "test"
+}

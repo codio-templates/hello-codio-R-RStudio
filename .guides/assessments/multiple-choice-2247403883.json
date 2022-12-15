@@ -1,0 +1,55 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "8ef2edb9-8a50-d553-fb85-e136c4e61b53",
+				"answer": "all(x)",
+				"correct": false
+			},
+			{
+				"_id": "e8a69664-26f4-5410-d76d-0b44e42d936c",
+				"answer": "any(x)",
+				"correct": false
+			},
+			{
+				"_id": "ae73c802-b78f-d839-a3ed-bf6c0681758c",
+				"answer": "any(!x)",
+				"correct": false
+			},
+			{
+				"_id": "3118a472-cae2-9d6d-3a38-dc36f96c4b23",
+				"answer": "all(!x)",
+				"correct": true
+			}
+		],
+		"bloomsObjectiveLevel": "",
+		"guidance": "",
+		"incorrectPoints": 0,
+		"instructions": "Which of the following expressions is always `FALSE` when at least one entry of a logical vector x is `TRUE`? You can try examples in the R console.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "https://{{domain8787}}/",
+					"panelNumber": 0,
+					"type": "preview"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "conditionals_cont",
+		"points": 50,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": false,
+		"showName": false
+	},
+	"taskId": "multiple-choice-2247403883",
+	"type": "multiple-choice"
+}

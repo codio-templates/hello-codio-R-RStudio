@@ -1,0 +1,34 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "/bin/true",
+		"guidance": "Are the numbers stored in `x` all positive? If not the `print` after the `else` is evaluated.",
+		"instructions": "Click below to reveal a hint",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "https://{{domain8787}}/",
+					"panelNumber": 0,
+					"type": "preview"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "conditionals_hint",
+		"oneTimeTest": true,
+		"points": 1,
+		"showGuidanceAfterResponse": true,
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-1643450243",
+	"type": "test"
+}

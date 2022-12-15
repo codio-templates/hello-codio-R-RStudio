@@ -1,0 +1,28 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "code/ifelse_student.r"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#terminal: "
+		}
+	],
+	"id": "5adfb9c7-cfd0-4cf0-4d96-7dcfebc9afb2",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "`TestThat` Code Test",
+	"type": "page"
+}

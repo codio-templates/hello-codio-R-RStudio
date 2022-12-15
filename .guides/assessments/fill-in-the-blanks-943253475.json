@@ -1,0 +1,40 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"guidance": "R is an interpreted language. \n\nYou do not use semi-colons at the end of each line of code in R.",
+		"instructions": "Fill in the blanks below.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Fill in the Blank",
+		"points": 1,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": true,
+		"showName": true,
+		"showValues": false,
+		"text": "True or False: R is a compiled language. \u003c\u003c\u003cFalse\u003e\u003e\u003e\n\nTrue or False: You do not use semi-colons at the end of each line of code in R. \u003c\u003c\u003cTrue\u003e\u003e\u003e\n",
+		"tokens": {
+			"blank": [
+				"False",
+				"True"
+			],
+			"text": [
+				"True or False: R is a compiled language. ",
+				0,
+				"\n\nTrue or False: You do not use semi-colons at the end of each line of code in R. ",
+				0,
+				"\n"
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-943253475",
+	"type": "fill-in-the-blanks"
+}

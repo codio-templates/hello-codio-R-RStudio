@@ -1,0 +1,60 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "6cc49153-8976-3dcb-0571-af79548ba5e9",
+				"answer": "All Positives",
+				"correct": false
+			},
+			{
+				"_id": "75457018-4673-8054-7a7c-744c5896566f",
+				"answer": "Not All Positives",
+				"correct": true
+			},
+			{
+				"_id": "ea0f392e-594e-3565-3eae-534a4bdacda8",
+				"answer": "N/A",
+				"correct": false
+			},
+			{
+				"_id": "ba32a63c-ff6a-42f9-673c-e05a7d913b0f",
+				"answer": "None of the above",
+				"correct": false
+			}
+		],
+		"bloomsObjectiveLevel": "",
+		"guidance": "",
+		"incorrectPoints": 0,
+		"instructions": "What will this conditional expression return?\nRun it from the console. \n\n```{r}\nx \u003c- c(1,2,-3,4)\nif(all(x\u003e0)){\n    print(\"All Positives\")\n  } else{\n     print(\"Not All Positives\")\n  }\n```\n",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [
+				{
+					"content": "https://{{domain8787}}/",
+					"panelNumber": 0,
+					"type": "preview"
+				},
+				{
+					"content": "sudo service rstudio-server-codio start",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Conditionals",
+		"points": 50,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": false,
+		"showName": false
+	},
+	"taskId": "multiple-choice-530676830",
+	"type": "multiple-choice"
+}
