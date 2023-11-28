@@ -3,31 +3,31 @@
 	"contentType": "markdown",
 	"files": [
 		{
-			"action": "close",
-			"path": "#tabs"
+			"path": "#tabs",
+			"action": "close"
 		},
 		{
-			"action": "open",
+			"path": "code/lesson.r",
 			"panel": 0,
-			"path": "code/lesson.r"
+			"action": "open"
 		},
 		{
-			"action": "open",
+			"path": "#preview: Rplots.pdf",
 			"panel": 1,
-			"path": "#preview: Rplots.pdf"
+			"action": "open"
 		},
 		{
-			"action": "open",
+			"path": "#terminal: clear;",
 			"panel": 1,
-			"path": "#terminal: clear;"
+			"action": "open"
 		}
 	],
 	"id": "ec568086-3e7d-5118-5802-408ba0f34f54",
 	"layout": "3-cell",
 	"learningObjectives": "",
 	"path": [],
-	"reset": [],
 	"teacherOnly": false,
 	"title": "R - Sample Lesson Page",
-	"type": "page"
+	"type": "page",
+	"closeTerminalSession": false
 }

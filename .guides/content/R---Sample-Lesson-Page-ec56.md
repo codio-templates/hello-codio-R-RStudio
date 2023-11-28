@@ -32,7 +32,7 @@ To learn more about `mpg`, type `R` and hit Enter/Return in the terminal window 
 
 ### Creating a ggplot
 
-To plot `mpg`, copy the code below and paste it into lesson.r (upper left window) then click **Run Code**. This puts `displ` on the x-axis and `hwy` on the y-axis. Click "Refresh Plot" to view the results.
+To plot `mpg`, copy the code below and paste it into lesson.r (upper left window) then click **Run Code**. This puts `displ` on the x-axis and `hwy` on the y-axis. Click "View Plot" to view the results.
 
 
 ```r
@@ -42,7 +42,7 @@ ggplot(data = mpg) +
 
 {Run code | terminal}(Rscript code/lesson.r)
  
-[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+[View Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 

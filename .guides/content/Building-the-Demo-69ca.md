@@ -2,7 +2,7 @@
 
 ## Building the Demo
 
-Instruction through Codio is built around the guides feature. This is a brief description on how the demo on the previous page was built. Please see the [documentation](https://docs.codio.com/courses/authoring/) for more information about content authoring with guides.
+Instruction through Codio is built around the guides feature. This is a brief description on how the demo on the previous page was built. Please see the [documentation](https://docs.codio.com/authoring.html) for more information about content authoring with guides.
 
 ||| info
 ### To try this out
@@ -28,7 +28,7 @@ The next step is to load this file into a panel of your layout. Click on the gea
 This file will open with the guide. The file will remain opened until the student closes the tab. This is why it is a good idea to tell Codio to close any previously opened tabs when selecting the layout.
 
 ### Markdown
-Guides are authored with [markdown](https://docs.codio.com/courses/authoring/#markdown-content-editing), but you can use any HTML to author content. The drop-down text is an example of the `<details>` and `<summary>` tags.
+Guides are authored with [markdown](https://docs.codio.com/instructors/authoring/guides/markdown_content.html#markdown), but you can use any HTML to author content. The drop-down text is an example of the `<details>` and `<summary>` tags.
 
 ### Images
 You will notice a folder called `.guides` in the File Tree. To view the File Tree, select **View->File Tree**. All of the information in this folder is hidden from students. There is a subfolder called `img` where you can upload any images you want to appear in the guide. Right-click on the `img` folder and select `Upload...`.
@@ -38,8 +38,8 @@ You will notice a folder called `.guides` in the File Tree. To view the File Tre
 Add the image to the guide using markdown syntax or by dragging the image file from the directory tree onto the guide page where you want to insert the image.
 
 ### Run code Button
-Codio has syntax to add a [custom button](https://docs.codio.com/courses/authoring/#custom-buttons) to your guide. On the first page, the `RUN CODE` button runs the command `Rscript` and prints the test output to the terminal and graphical output to a PDF.
+Codio has syntax to add a [custom button](https://docs.codio.com/instructors/authoring/guides/custom_button.html#custom-buttons-in-guides) to your guide. On the first page, the `RUN CODE` button runs the command `Rscript` and prints the test output to the terminal and graphical output to a PDF.
 
 
 ### Code Highlighting
-You can create links that [highlight](https://docs.codio.com/courses/authoring/#examples) sections of code. It is important to note that opening a file with highlighting will retain the highlighting. Adding another like to open the same file without highlighting will "remove" the highlighting.
+You can create links that [highlight](https://docs.codio.com/instructors/authoring/guides/open_close_content.html#open-close-tabs-from-content) sections of code. It is important to note that opening a file with highlighting will retain the highlighting. Adding another like to open the same file without highlighting will "remove" the highlighting.

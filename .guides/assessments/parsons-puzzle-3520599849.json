@@ -1,27 +1,29 @@
 {
 	"source": {
-		"bloomsObjectiveLevel": "",
+		"name": "Parsons Problem",
+		"showName": true,
+		"instructions": "Rearrange the code blocks below into the proper order. **Note**, not all of the code blocks will be used.",
+		"initial": "The first code block\nThe second code block\nThe third code block\nI am not correct #distractor\nI am not correct #distractor",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"trashId\":\"sortableTrash\"}",
 		"grader": "1",
 		"guidance": "The first code block\nThe second code block\nThe third code block",
-		"initial": "The first code block\nThe second code block\nThe third code block\nI am not correct #distractor\nI am not correct #distractor",
-		"instructions": "Rearrange the code blocks below into the proper order. **Note**, not all of the code blocks will be used.",
-		"learningObjectives": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 1,
 		"metadata": {
-			"files": [],
-			"opened": [],
 			"tags": [
 				{
 					"name": "Assessment Type",
 					"value": "Parsons Puzzle"
 				}
-			]
+			],
+			"files": [],
+			"opened": []
 		},
-		"name": "Parsons Problem",
-		"oneTimeTest": false,
-		"options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-		"points": 1,
-		"showGuidanceAfterResponse": true,
-		"showName": true
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
 	},
 	"taskId": "parsons-puzzle-3520599849",
 	"type": "parsons-puzzle"
